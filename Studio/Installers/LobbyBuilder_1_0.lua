@@ -2,7 +2,7 @@
 -- THE FOREST | LOBBY BUILDER 1.0
 -- Paste the complete file into Roblox Studio > View > Command Bar.
 -- Re-runnable: replaces ONLY Workspace.THE_FOREST_LOBBY.
--- Does not edit Lighting, Terrain, or any other game systems outside this folder.
+-- Updates global Lighting values for the lobby's daytime look; does not edit Terrain or other game systems.
 
 local Workspace = game:GetService("Workspace")
 local Lighting = game:GetService("Lighting")
