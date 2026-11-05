@@ -202,7 +202,7 @@ local treePositions = {}
 local count = 30
 for i = 1, count do
     local angle = (math.pi * 2 / count) * i
-    local radius = 38 + ((i * 17) % 29)
+    local radius = 14 + ((i * 9) % 20)
     local x = math.cos(angle) * radius
     local z = math.sin(angle) * radius
     table.insert(treePositions, Vector3.new(x, 0, z))
